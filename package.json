@@ -1,0 +1,26 @@
+{
+  "name": "esbuild-plugin-dynamic-import",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "Taro Kawada",
+  "license": "ISC",
+  "peerDependencies": {
+    "esbuild": "^0.19.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "@vitest/coverage-v8": "^0.34.6",
+    "acorn": "^8.10.0",
+    "astring": "^1.8.6",
+    "esbuild": "^0.19.3",
+    "estree-walker": "^3.0.3",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.5"
+  }
+}
